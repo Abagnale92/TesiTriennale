@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "totalWeight"
+- "printMST"
+provides-nominal:
+provides-member:
+- ["C8MicroApp13WeightedGraph", ""]
+- ["C8MicroApp13WeightedGraph", "mst"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "-"
+- !private "<"
+- !private ">"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "PriorityQueue"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "WeightedEdge"
+- "WeightedGraph"
+- !private "print"
+- "printMST"
+- "totalWeight"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "PriorityQueue"]
+- !private ["Ps9AnyObject", "WeightedEdge"]
+- !private ["Ps9AnyObject", "edgesForIndex"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "u"]
+- !private ["Ps9AnyObject", "v"]
+- !private ["Ps9AnyObject", "vertexAtIndex"]
+- !private ["Ps9AnyObject", "vertexCount"]
+- !private ["Ps9AnyObject", "weight"]
+- !private ["Sa", "append"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Vs10ArraySlice", "reduce"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "dropFirst"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "reduce"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "dropFirst"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Array"]
+- !private ["Ps10Collection", "PriorityQueue"]
+- !private ["Ps10Collection", "WeightedEdge"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "dropFirst"]
+- !private ["Ps10Collection", "edgesForIndex"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "pop"]
+- !private ["Ps10Collection", "push"]
+- !private ["Ps10Collection", "reduce"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "vertexAtIndex"]
+- !private ["Ps10Collection", "vertexCount"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "u"]
+- !private ["Ps10Comparable", "v"]
+- !private ["Ps10Comparable", "weight"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "dropFirst"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pop"]
+- !private ["Ps28CustomDebugStringConvertible", "push"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "dropFirst"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "reduce"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Array"]
+- !private ["Ps23CustomStringConvertible", "PriorityQueue"]
+- !private ["Ps23CustomStringConvertible", "WeightedEdge"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "dropFirst"]
+- !private ["Ps23CustomStringConvertible", "edgesForIndex"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "pop"]
+- !private ["Ps23CustomStringConvertible", "push"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "u"]
+- !private ["Ps23CustomStringConvertible", "v"]
+- !private ["Ps23CustomStringConvertible", "vertexAtIndex"]
+- !private ["Ps23CustomStringConvertible", "vertexCount"]
+- !private ["Ps23CustomStringConvertible", "weight"]
+- !private ["P8MicroApp4Edge", "u"]
+- !private ["P8MicroApp4Edge", "v"]
+- !private ["P8MicroApp4Edge", "weight"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "u"]
+- !private ["Ps9Equatable", "v"]
+- !private ["Ps9Equatable", "weight"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "dropFirst"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reduce"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C8MicroApp5Graph", "Array"]
+- !private ["C8MicroApp5Graph", "Bool"]
+- ["C8MicroApp5Graph", "Int"]
+- !private ["C8MicroApp5Graph", "PriorityQueue"]
+- ["C8MicroApp5Graph", "W"]
+- ["C8MicroApp5Graph", "WeightedEdge"]
+- !private ["C8MicroApp5Graph", "edgesForIndex"]
+- ["C8MicroApp5Graph", "mst"]
+- !private ["C8MicroApp5Graph", "vertexAtIndex"]
+- !private ["C8MicroApp5Graph", "vertexCount"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps16IteratorProtocol", "init"]
+- !private ["Ps16IteratorProtocol", "pop"]
+- !private ["Ps16IteratorProtocol", "push"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "dropFirst"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "reduce"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["V8MicroApp13PriorityQueue", "init"]
+- !private ["V8MicroApp13PriorityQueue", "pop"]
+- !private ["V8MicroApp13PriorityQueue", "push"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "dropFirst"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "reduce"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "dropFirst"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "reduce"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "Array"]
+- !private ["Ps8Sequence", "PriorityQueue"]
+- !private ["Ps8Sequence", "WeightedEdge"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "dropFirst"]
+- !private ["Ps8Sequence", "edgesForIndex"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "pop"]
+- !private ["Ps8Sequence", "push"]
+- !private ["Ps8Sequence", "reduce"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "vertexAtIndex"]
+- !private ["Ps8Sequence", "vertexCount"]
+- !private ["SS", "init"]
+- !private ["P8MicroApp8Summable", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C8MicroApp14UnweightedEdge", "u"]
+- !private ["C8MicroApp14UnweightedEdge", "v"]
+- !private ["C8MicroApp14UnweightedEdge", "weight"]
+- ["C8MicroApp12WeightedEdge", "deinit"]
+- !private ["C8MicroApp12WeightedEdge", "u"]
+- !private ["C8MicroApp12WeightedEdge", "v"]
+- !private ["C8MicroApp12WeightedEdge", "weight"]
+- !private ["C8MicroApp13WeightedGraph", "Array"]
+- !private ["C8MicroApp13WeightedGraph", "Bool"]
+- ["C8MicroApp13WeightedGraph", "Int"]
+- !private ["C8MicroApp13WeightedGraph", "PriorityQueue"]
+- ["C8MicroApp13WeightedGraph", "W"]
+- ["C8MicroApp13WeightedGraph", "WeightedEdge"]
+- !private ["C8MicroApp13WeightedGraph", "edgesForIndex"]
+- ["C8MicroApp13WeightedGraph", "mst"]
+- !private ["C8MicroApp13WeightedGraph", "vertexAtIndex"]
+- !private ["C8MicroApp13WeightedGraph", "vertexCount"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "dropFirst"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "reduce"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "dropFirst"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "reduce"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "dropFirst"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "Array"]
+- !private ["Ps10_Indexable", "PriorityQueue"]
+- !private ["Ps10_Indexable", "WeightedEdge"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "dropFirst"]
+- !private ["Ps10_Indexable", "edgesForIndex"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "pop"]
+- !private ["Ps10_Indexable", "push"]
+- !private ["Ps10_Indexable", "reduce"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "vertexAtIndex"]
+- !private ["Ps10_Indexable", "vertexCount"]
+- !private ["Ps14_IndexableBase", "Array"]
+- !private ["Ps14_IndexableBase", "PriorityQueue"]
+- !private ["Ps14_IndexableBase", "WeightedEdge"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "dropFirst"]
+- !private ["Ps14_IndexableBase", "edgesForIndex"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "pop"]
+- !private ["Ps14_IndexableBase", "push"]
+- !private ["Ps14_IndexableBase", "reduce"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "vertexAtIndex"]
+- !private ["Ps14_IndexableBase", "vertexCount"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "dropFirst"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "reduce"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "dropFirst"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "dropFirst"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "reduce"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "dropFirst"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "reduce"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Vs10ArraySlice"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CNKeyDescriptor"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P8MicroApp4Edge"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C8MicroApp5Graph"
+- !private "Ps8Hashable"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "V8MicroApp13PriorityQueue"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "P8MicroApp8Summable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C8MicroApp14UnweightedEdge"
+- "C8MicroApp12WeightedEdge"
+- "C8MicroApp13WeightedGraph"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1982e84c7d1ce679effab30484c90ea3"

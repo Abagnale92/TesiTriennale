@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Stack"
+provides-nominal:
+- "C8MicroApp5Stack"
+provides-member:
+- ["C8MicroApp5Stack", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Stack"
+depends-member:
+- ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "container"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeLast"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "removeLast"]
+- !private ["Ps7CVarArg", "append"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "removeLast"]
+- !private ["Ps10Collection", "append"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "removeLast"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "removeLast"]
+- !private ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "removeLast"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "removeLast"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeLast"]
+- !private ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "removeLast"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "removeLast"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "removeLast"]
+- !private ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "removeLast"]
+- ["C8MicroApp5Stack", "Bool"]
+- ["C8MicroApp5Stack", "T"]
+- !private ["C8MicroApp5Stack", "container"]
+- ["C8MicroApp5Stack", "deinit"]
+- ["C8MicroApp5Stack", "init"]
+- ["C8MicroApp5Stack", "isEmpty"]
+- ["C8MicroApp5Stack", "pop"]
+- ["C8MicroApp5Stack", "push"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "removeLast"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "removeLast"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "removeLast"]
+- !private ["Ps10_Indexable", "append"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "removeLast"]
+- !private ["Ps14_IndexableBase", "append"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "removeLast"]
+- !private ["Ps17_MutableIndexable", "append"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "removeLast"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeLast"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "removeLast"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "removeLast"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps17MutableCollection"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "C8MicroApp5Stack"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MessageUI.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e8a7d4310b0543dbb07bfc6a57416c51"
